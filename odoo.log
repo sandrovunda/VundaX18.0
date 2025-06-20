@@ -6598,3 +6598,183 @@ FileNotFoundError: [Errno 2] No such file or directory: 'c:\\vunda_resources\\vu
 2025-06-20 11:05:46,030 33624 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) done in 0.020s 
 2025-06-20 11:05:46,035 33624 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) processed 0 records, 0 records remaining 
 2025-06-20 11:05:46,061 33624 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) completed 
+2025-06-20 15:55:25,606 42628 INFO ? odoo: Odoo version 18.0 
+2025-06-20 15:55:25,606 42628 INFO ? odoo: Using configuration file at C:\Vunda_Resources\VundaX18.0\odoo.conf 
+2025-06-20 15:55:25,606 42628 INFO ? odoo: addons paths: ['C:\\Vunda_Resources\\VundaX18.0\\odoo\\addons', 'c:\\vunda_resources\\vundax18.0\\sessions\\addons\\18.0', 'c:\\vunda_resources\\vundax18.0\\addons', 'c:\\vunda_resources\\vundax18.0\\odoo\\addons'] 
+2025-06-20 15:55:25,606 42628 INFO ? odoo: database: sandrovunda@localhost:5432 
+2025-06-20 15:55:26,048 42628 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-06-20 15:55:26,048 42628 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-06-20 15:55:26,659 42628 INFO ? odoo.service.server: HTTP service (werkzeug) running on SANDROVUNDA:8069 
+2025-06-20 15:56:11,703 42628 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-06-20 15:56:11,718 42628 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-06-20 15:56:16,928 42628 INFO ? odoo.modules.loading: loading 239 modules... 
+2025-06-20 15:56:16,960 42628 WARNING ? odoo.addons.attachment_indexation.models.ir_attachment: Attachment indexation of PDF documents is unavailable because the 'pdfminer' Python library cannot be found on the system. You may install it from https://pypi.org/project/pdfminer.six/ (e.g. `pip3 install pdfminer.six`) 
+2025-06-20 15:56:25,400 42628 INFO ? odoo.modules.loading: 239 modules loaded in 8.47s, 0 queries (+0 extra) 
+2025-06-20 15:56:27,353 42628 INFO ? odoo.modules.loading: Modules loaded. 
+2025-06-20 15:56:27,368 42628 INFO ? odoo.modules.registry: Registry loaded in 15.770s 
+2025-06-20 15:56:27,388 42628 INFO VundexDB odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-06-20 15:56:27,645 42628 INFO VundexDB odoo.addons.base.models.res_device: User 2 inserts device log (3XnnasYw36MdwqwtG5Pghy2AgmHwzxkafx1PflIPdI) 
+2025-06-20 15:56:28,746 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-06-20 15:56:29,195 42628 INFO VundexDB odoo.addons.base.models.ir_attachment: filestore gc 16 checked, 5 removed 
+2025-06-20 15:56:29,381 42628 INFO VundexDB odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-06-20 15:56:29,409 42628 INFO VundexDB odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-06-20 15:56:29,413 42628 INFO VundexDB odoo.addons.base.models.res_device: GC device logs delete 2 entries 
+2025-06-20 15:56:29,429 42628 INFO VundexDB odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-06-20 15:56:29,465 42628 INFO VundexDB odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-06-20 15:56:29,497 42628 INFO VundexDB odoo.models.unlink: User #1 deleted bus.bus records with IDs: [29, 30, 31, 32, 33, 34, 35, 36] 
+2025-06-20 15:56:29,960 42628 INFO VundexDB odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-06-20 15:56:31,196 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 2.440s 
+2025-06-20 15:56:31,208 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,261 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-06-20 15:56:31,295 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) starting 
+2025-06-20 15:56:31,327 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) done in 0.031s 
+2025-06-20 15:56:31,340 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,372 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) completed 
+2025-06-20 15:56:31,397 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2025-06-20 15:56:31,414 42628 INFO VundexDB odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2025-06-20 15:56:31,420 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) done in 0.024s 
+2025-06-20 15:56:31,421 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,457 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) completed 
+2025-06-20 15:56:31,476 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-06-20 15:56:31,509 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.033s 
+2025-06-20 15:56:31,509 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,545 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-06-20 15:56:31,571 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2025-06-20 15:56:31,595 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) done in 0.024s 
+2025-06-20 15:56:31,597 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,629 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) completed 
+2025-06-20 15:56:31,662 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2025-06-20 15:56:31,678 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) done in 0.016s 
+2025-06-20 15:56:31,695 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,728 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) completed 
+2025-06-20 15:56:31,762 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) starting 
+2025-06-20 15:56:31,793 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) done in 0.031s 
+2025-06-20 15:56:31,796 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,842 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) completed 
+2025-06-20 15:56:31,872 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Calendar: Event Reminder' (13) starting 
+2025-06-20 15:56:31,907 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Calendar: Event Reminder' (13) done in 0.035s 
+2025-06-20 15:56:31,913 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Calendar: Event Reminder' (13) processed 0 records, 0 records remaining 
+2025-06-20 15:56:31,946 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Calendar: Event Reminder' (13) completed 
+2025-06-20 15:56:31,992 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Fleet: Generate contracts costs based on costs frequency' (15) starting 
+2025-06-20 15:56:32,028 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Fleet: Generate contracts costs based on costs frequency' (15) done in 0.033s 
+2025-06-20 15:56:32,040 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Fleet: Generate contracts costs based on costs frequency' (15) processed 0 records, 0 records remaining 
+2025-06-20 15:56:32,062 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Fleet: Generate contracts costs based on costs frequency' (15) completed 
+2025-06-20 15:56:32,086 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Gamification: Goal Challenge Check' (16) starting 
+2025-06-20 15:56:34,196 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Gamification: Goal Challenge Check' (16) done in 2.109s 
+2025-06-20 15:56:34,196 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Gamification: Goal Challenge Check' (16) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,230 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Gamification: Goal Challenge Check' (16) completed 
+2025-06-20 15:56:34,245 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (20) starting 
+2025-06-20 15:56:34,259 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (20) done in 0.014s 
+2025-06-20 15:56:34,275 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (20) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,295 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (20) completed 
+2025-06-20 15:56:34,323 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (21) starting 
+2025-06-20 15:56:34,343 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (21) done in 0.019s 
+2025-06-20 15:56:34,347 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (21) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,373 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (21) completed 
+2025-06-20 15:56:34,403 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) starting 
+2025-06-20 15:56:34,419 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) done in 0.017s 
+2025-06-20 15:56:34,423 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,455 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event: Mail Scheduler' (23) completed 
+2025-06-20 15:56:34,467 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (26) starting 
+2025-06-20 15:56:34,502 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (26) done in 0.035s 
+2025-06-20 15:56:34,502 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (26) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,530 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (26) completed 
+2025-06-20 15:56:34,548 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (29) starting 
+2025-06-20 15:56:34,579 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (29) done in 0.031s 
+2025-06-20 15:56:34,579 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (29) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,612 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Employee: check work permit validity' (29) completed 
+2025-06-20 15:56:34,645 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Project: Send rating' (32) starting 
+2025-06-20 15:56:34,660 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Project: Send rating' (32) done in 0.015s 
+2025-06-20 15:56:34,673 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Project: Send rating' (32) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,703 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Project: Send rating' (32) completed 
+2025-06-20 15:56:34,724 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (33) starting 
+2025-06-20 15:56:34,870 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (33) done in 0.146s 
+2025-06-20 15:56:34,885 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (33) processed 4 records, 0 records remaining 
+2025-06-20 15:56:34,902 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Procurement: run scheduler' (33) completed 
+2025-06-20 15:56:34,932 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (35) starting 
+2025-06-20 15:56:34,956 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (35) done in 0.024s 
+2025-06-20 15:56:34,964 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (35) processed 0 records, 0 records remaining 
+2025-06-20 15:56:34,980 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Website Visitor : clean inactive visitors' (35) completed 
+2025-06-20 15:56:35,012 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event CRM: Generate Leads based on Rules' (36) starting 
+2025-06-20 15:56:35,028 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event CRM: Generate Leads based on Rules' (36) done in 0.016s 
+2025-06-20 15:56:35,028 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event CRM: Generate Leads based on Rules' (36) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,061 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Event CRM: Generate Leads based on Rules' (36) completed 
+2025-06-20 15:56:35,076 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Automatically check-out employees' (37) starting 
+2025-06-20 15:56:35,096 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Automatically check-out employees' (37) done in 0.020s 
+2025-06-20 15:56:35,111 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Automatically check-out employees' (37) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,124 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Automatically check-out employees' (37) completed 
+2025-06-20 15:56:35,157 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Detect Absences for employees' (38) starting 
+2025-06-20 15:56:35,173 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Detect Absences for employees' (38) done in 0.017s 
+2025-06-20 15:56:35,173 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Detect Absences for employees' (38) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,204 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Attendance: Detect Absences for employees' (38) completed 
+2025-06-20 15:56:35,224 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Contract: update state' (39) starting 
+2025-06-20 15:56:35,283 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Contract: update state' (39) done in 0.059s 
+2025-06-20 15:56:35,283 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Contract: update state' (39) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,322 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'HR Contract: update state' (39) completed 
+2025-06-20 15:56:35,331 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Accrual Time Off: Updates the number of time off' (40) starting 
+2025-06-20 15:56:35,507 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Accrual Time Off: Updates the number of time off' (40) done in 0.176s 
+2025-06-20 15:56:35,524 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Accrual Time Off: Updates the number of time off' (40) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,556 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Accrual Time Off: Updates the number of time off' (40) completed 
+2025-06-20 15:56:35,587 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Time Off: Cancel invalid leaves' (41) starting 
+2025-06-20 15:56:35,616 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Time Off: Cancel invalid leaves' (41) done in 0.027s 
+2025-06-20 15:56:35,625 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Time Off: Cancel invalid leaves' (41) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,653 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Time Off: Cancel invalid leaves' (41) completed 
+2025-06-20 15:56:35,679 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Purchase reminder' (42) starting 
+2025-06-20 15:56:35,706 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Purchase reminder' (42) done in 0.027s 
+2025-06-20 15:56:35,714 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Purchase reminder' (42) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,740 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Purchase reminder' (42) completed 
+2025-06-20 15:56:35,762 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (43) starting 
+2025-06-20 15:56:35,795 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (43) done in 0.033s 
+2025-06-20 15:56:35,795 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (43) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,826 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (43) completed 
+2025-06-20 15:56:35,856 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (45) starting 
+2025-06-20 15:56:35,873 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (45) done in 0.017s 
+2025-06-20 15:56:35,873 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (45) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,903 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (45) completed 
+2025-06-20 15:56:35,934 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'eCommerce: send email to customers about their abandoned cart' (47) starting 
+2025-06-20 15:56:35,966 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'eCommerce: send email to customers about their abandoned cart' (47) done in 0.032s 
+2025-06-20 15:56:35,966 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'eCommerce: send email to customers about their abandoned cart' (47) processed 0 records, 0 records remaining 
+2025-06-20 15:56:35,995 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'eCommerce: send email to customers about their abandoned cart' (47) completed 
+2025-06-20 15:56:36,022 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) starting 
+2025-06-20 15:56:36,040 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) done in 0.018s 
+2025-06-20 15:56:36,053 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) processed 0 records, 0 records remaining 
+2025-06-20 15:56:36,068 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) completed 
+2025-06-20 15:56:36,106 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-06-20 15:56:36,123 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.017s 
+2025-06-20 15:56:36,133 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-06-20 15:56:36,163 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-06-20 15:56:36,180 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) starting 
+2025-06-20 15:56:36,200 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) done in 0.020s 
+2025-06-20 15:56:36,211 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) processed 0 records, 0 records remaining 
+2025-06-20 15:56:36,245 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) completed 
+2025-06-20 15:56:36,259 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (19) starting 
+2025-06-20 15:56:36,275 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (19) done in 0.015s 
+2025-06-20 15:56:36,290 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (19) processed 0 records, 0 records remaining 
+2025-06-20 15:56:36,310 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (19) completed 
+2025-06-20 15:56:36,339 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail Marketing: Process queue' (30) starting 
+2025-06-20 15:56:36,355 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail Marketing: Process queue' (30) done in 0.016s 
+2025-06-20 15:56:36,370 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail Marketing: Process queue' (30) processed 0 records, 0 records remaining 
+2025-06-20 15:56:36,402 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Mail Marketing: Process queue' (30) completed 
+2025-06-20 15:56:36,421 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2025-06-20 15:56:36,442 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) done in 0.020s 
+2025-06-20 15:56:36,450 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) processed 0 records, 0 records remaining 
+2025-06-20 15:56:36,466 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) completed 
+2025-06-20 15:56:41,895 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:41] "GET / HTTP/1.1" 200 - 266 0.461 29.837
+2025-06-20 15:56:49,708 42628 INFO ? werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:49] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 7.785
+2025-06-20 15:56:49,727 42628 INFO ? werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:49] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 7.489
+2025-06-20 15:56:49,755 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:49] "GET /web/assets/1/816e53f/web.assets_frontend.min.css HTTP/1.1" 200 - 5 0.000 7.828
+2025-06-20 15:56:49,806 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:49] "GET /web/image/website.s_text_image_default_image HTTP/1.1" 200 - 10 0.042 7.523
+2025-06-20 15:56:50,121 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:50] "GET /web/assets/1/9187bf6/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.000 0.014
+2025-06-20 15:56:50,662 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:50] "GET /web/image/website/1/logo/My%20Website?unique=bfcf68d HTTP/1.1" 200 - 5 0.001 0.030
+2025-06-20 15:56:50,745 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:50] "GET /web/image/website.s_cover_default_image HTTP/1.1" 200 - 8 0.020 0.050
+2025-06-20 15:56:50,886 42628 INFO ? werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:50] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.013
+2025-06-20 15:56:51,001 42628 INFO ? werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:51] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 200 - 0 0.000 0.015
+2025-06-20 15:56:51,664 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:51] "GET /web/assets/1/01047f5/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.000 0.455
+2025-06-20 15:56:52,124 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:56:52] "GET /website/translations/ddaccf8ba1f6b97e950c664f3dac17219fc874a0?lang=pt_AO HTTP/1.1" 200 - 6 0.000 0.023
+2025-06-20 15:57:26,824 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) starting 
+2025-06-20 15:57:26,849 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) done in 0.025s 
+2025-06-20 15:57:26,849 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) processed 0 records, 0 records remaining 
+2025-06-20 15:57:26,864 42628 INFO VundexDB odoo.addons.base.models.ir_cron: Job 'Product: send email regarding products availability' (48) completed 
+2025-06-20 15:58:03,416 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:58:03] "GET / HTTP/1.1" 200 - 34 0.022 0.160
+2025-06-20 15:58:03,526 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:58:03] "GET /web/image/website.s_cover_default_image HTTP/1.1" 304 - 8 0.007 0.038
+2025-06-20 15:58:03,568 42628 INFO VundexDB werkzeug: 127.0.0.1 - - [20/Jun/2025 15:58:03] "GET /web/image/website.s_text_image_default_image HTTP/1.1" 304 - 8 0.005 0.047
