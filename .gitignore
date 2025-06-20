@@ -51,5 +51,4 @@ package.json
 /src/
 /venv/
 /sessions/
-/sessions
-/sessions/filestore
+
