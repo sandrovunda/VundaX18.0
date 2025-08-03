@@ -1,41 +1,43 @@
-FROM python:3.10
+FROM python:3.12.1-slim-buster
 
-# Evita prompts do Debian
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Instalar pacotes do sistema
+# Instalar bibliotecas do sistema necessárias para Odoo
 RUN apt-get update && apt-get install -y \
-    git \
-    wget \
-    curl \
+    build-essential \
+    libpq-dev \
     libxml2-dev \
     libxslt1-dev \
     libldap2-dev \
     libsasl2-dev \
+    libffi-dev \
     libjpeg-dev \
     zlib1g-dev \
-    libpq-dev \
-    build-essential \
-    libffi-dev \
-    python3-dev \
+    libssl-dev \
+    libjpeg62-turbo-dev \
     nodejs \
     npm \
-    && rm -rf /var/lib/apt/lists/*
+    git \
+    curl \
+    wget \
+    python3-dev \
+    && apt-get clean
 
 # Criar diretório de trabalho
 WORKDIR /odoo
 
-# Copiar todos os arquivos do projeto
+# Copiar o projeto
 COPY . /odoo/
 
-# Instalar dependências do Python
-RUN pip install --upgrade pip && pip install -r requirements.txt
+# Atualizar pip e instalar dependências
+RUN pip install --upgrade pip setuptools wheel Cython
+RUN pip install -r requirements.txt
 
-# Permissões de execução
+# Tornar o entrypoint executável
 RUN chmod +x entrypoint.sh
 
-# Expor a porta do Odoo
+# Expor porta
 EXPOSE 8069
 
-# Comando de inicialização
+# Entrypoint
 ENTRYPOINT ["./entrypoint.sh"]
