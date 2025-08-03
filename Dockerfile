@@ -1,5 +1,5 @@
 FROM python:3.12.1-slim-buster
-
+ 
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Instalar bibliotecas do sistema necessárias para Odoo
