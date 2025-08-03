@@ -1,8 +1,8 @@
 FROM python:3.12.1-slim-buster
- 
+
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Instalar bibliotecas do sistema necessárias para Odoo
+# Instalar dependências do sistema para compilar as libs Python
 RUN apt-get update && apt-get install -y \
     build-essential \
     libpq-dev \
@@ -23,21 +23,23 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     && apt-get clean
 
-# Criar diretório de trabalho
+# Definir diretório de trabalho
 WORKDIR /odoo
 
-# Copiar o projeto
+# Copiar projeto
 COPY . /odoo/
 
-# Atualizar pip e instalar dependências
+# Atualizar pip + instalar ferramentas de build
 RUN pip install --upgrade pip setuptools wheel Cython
+
+# Instalar as dependências
 RUN pip install -r requirements.txt
 
-# Tornar o entrypoint executável
+# Garantir permissões de execução
 RUN chmod +x entrypoint.sh
 
-# Expor porta
+# Expor a porta 8069 do Odoo
 EXPOSE 8069
 
-# Entrypoint
+# Comando de entrada
 ENTRYPOINT ["./entrypoint.sh"]
