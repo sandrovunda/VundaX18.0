@@ -1,0 +1,17 @@
+
+<odoo>
+    <data noupdate="1">
+        <record id="param_sistema_nome" model="ir.config_parameter">
+            <field name="key">vunda_base.sistema_nome</field>
+            <field name="value">Vunda ERP</field>
+        </record>
+        <record id="param_sistema_serie_fiscal" model="ir.config_parameter">
+            <field name="key">vunda_base.sistema_serie_fiscal</field>
+            <field name="value">AGT2024</field>
+        </record>
+        <record id="param_sistema_identificacao" model="ir.config_parameter">
+            <field name="key">vunda_base.sistema_identificacao</field>
+            <field name="value">VD-SYS-001</field>
+        </record>
+    </data>
+</odoo>
