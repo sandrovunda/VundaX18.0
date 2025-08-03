@@ -4,4 +4,4 @@ mkdir -p /odoo/.local/share/Odoo/sessions
 mkdir -p /odoo/log
 
 # Rodar o Odoo
-exec python3 odoo/odoo-bin -c odoo.conf
+exec python3 odoo-bin -c odoo.conf
